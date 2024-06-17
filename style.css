@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #1C1C1C;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-card{
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F4F4;
+    align-items: center;
+    width: 550px;
+}
+
+.input-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6943FF;
+    padding: 35px 0;
+    width: 100%;
+}
+
+h1{
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#input-el{
+    border: 2px solid #B295FF;
+    font-size: 58px;
+    font-weight: 800;
+    text-align: center;
+    width: 2em;
+    height: 1.43em;
+    background-color: #6943FF;
+    color: white;
+    border-radius: 5px;
+    margin: 30px 0 25px 0;
+}
+#input-el::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#input-el:focus{
+    outline: none;
+}
+
+#input-btn {
+    font-size: 16px;
+    padding: 9px 27.5px;
+    background-color: white;
+    border-radius: 5px;
+    line-height: 24px;
+}
+
+.card-container{
+    padding: 35px 25px;
+}
+
+.card{
+    margin-top: 23.5px;
+    width: 500px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 31px 0 18.5px 0;
+}
+
+.card:first-child{
+    margin-top: 0;
+}
+
+p:first-child{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 9px;
+}
+
+p:last-child{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@media(max-width: 650px){ 
+    .container{
+        min-height: 780px
+    }
+    .main-card{
+        width: fit-content;
+    }
+    .input-section{
+        font-size: 24px;
+    }
+    .card{
+        width: fit-content;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .card-container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    h1{
+        width: 70%;
+        font-size: 24px;
+    }
+} 
+
+@media (min-width: 651px) and (max-width: 899px){
+    .container{
+        min-height: 730px;
+    }
+}
+
+@media(min-width: 900px){ 
+    .main-card{
+         flex-direction: row;
+         width: fit-content;
+    } 
+    .card{
+        width: 400px;
+    }
+    .input-section{
+        width: 100%; 
+        height: 413px;
+        padding: 40px 10px;
+        justify-content: center;
+    }
+    h1{
+        width: 70%;
+    }
+} 
