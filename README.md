@@ -15,6 +15,14 @@ Unit Converter is a JavaScript application designed to simplify and automate the
   - Pounds to Kilograms
 - **Responsive Design:** The application adapts to various screen sizes, providing an optimal user experience on both desktop and mobile devices.
 
+## Screenshots
+
+![Laptop View](./img/Screenshot-laptop.png)
+*Figure 1: Unit Converter in Large Screens*
+
+![Mobile View](./img/Screenshot-mobile.png)
+*Figure 2: Unit converter in Mobile Devices*
+
 ## Usage
 
 1. **Input Number:**
